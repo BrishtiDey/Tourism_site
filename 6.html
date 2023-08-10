@@ -1,0 +1,164 @@
+<HTML>
+<HEAD>
+<TITLE> Agni Tourisms </TITLE>
+<style>
+		label {
+			display: block;
+			margin-top: 20px;
+		}
+		input[type=text], select, textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			resize: vertical;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+		.container {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		}
+		.col-25 {
+			float: left;
+			width: 25%;
+			margin-top: 6px;
+		}
+		.col-75 {
+			float: left;
+			width: 75%;
+			margin-top: 6px;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	</style>
+</HEAD>
+
+<BODY bgcolor="Black"> 
+<IMG Src = "Destination\tours.png" align = left width = 25% height = 25%"><BR><BR><BR>
+<B><Font face = "Monotype Corsiva" color = "#1f1f14" size=10>A</Font>
+<Font face = "Monotype Corsiva" color = "#1f1f14" size=6>GNI</Font>&nbsp&nbsp&nbsp
+<Font face = "Monotype Corsiva" color = "#1f1f14" size=10>T</Font>
+<Font face = "Monotype Corsiva" color = "#1f1f14" size=6>OURISMS</FONT></B>
+&nbsp&nbsp<Font Size = 4 color = "#1f1f14">&nbspFill Your Life With Adventure..</Font>
+<BR><BR><BR>
+<Table style="background-color:#000000" border=10 width=100% height=10%>
+<TR>
+<TD><A Href = "1.html"><Font color = #99ffff><B>Home</B></font></A></TD>
+<TD><A Href = "2.html"><Font color = #99ffff><B>Heritage</B></font></A></TD>
+<TD><A Href = "3.html"><Font color = #99ffff><B>Packages</B></font></A></TD>
+<TD><A Href = "4.html"><Font color = #99ffff><B>Offers</B></font></A></TD>
+<TD><A Href = "5.html"><Font color = #99ffff><B>Gallery</B></font></A></TD>
+<TD><marquee width = 100%><Font color = #99ffff><B>You dream, We plan</B></font></marquee></TD>
+<TD><A Href = "6.html"><Font color = #99ffff><B>Enquiry</B></font></A></TD>
+<TD><A Href = "7.html"><Font color = #99ffff><B>Book Now</B></font></A></TD>
+</TR>
+</Table>
+<BR>
+<Table style="background-color:#663300" width=100% height=10%>
+<TR>
+<TD><marquee  width = 100%>
+<U><B><Font Size = 3 color = "White">Come with Us. And make your holidays more memorable at a cheaper cost.</FONT></B></U></marquee></TD>
+</TR>
+</Table>
+<CENTER><H1><u>Enquiry</u></H1></CENTER>
+
+<Table style="background-color:#663300" width=100% height=10%>
+
+<body>
+    <div class="col-25"><h2>Tourist Enquiry Form</h2></div>
+    <div class="col-75">
+	    <h3 align = "right">Contact Number :- 9836438475</h3>
+        <h3 align = "right">Email :- agnitourism@hotmail.com</h3>
+	</div>
+    
+	<p>Please fill in this form to enquire about our hotel services.</p>
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="name">Name</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="name" name="name" placeholder="Enter your name..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="contact-no">Contact Number</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="contact-no" name="contact-no" placeholder="Enter your contact number..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="no-of-guests">No. of Guests</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="no-of-guests" name="no-of-guests" placeholder="Enter the number of guests..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="room-type">Room Types</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="room-type" name="room-type" placeholder="Enter your enquiry about room types..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="food-facility">Food Facility</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="food-facility" name="food-facility" placeholder="Enter your enquiry about food facility..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+  
+                    <label for="cartypes">Select a car type:</label></div>
+                    <div class="col-75">
+                        <select id="cartypes" name="cartypes">
+                        <option value="compact">Compact</option>
+                        <option value="midsize">Midsize</option>
+                        <option value="fullsize">Fullsize</option>
+                        <option value="luxury">Luxury</option>
+                    </select>
+  
+            <br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="enquiry">Enquiry</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="enquiry" name="enquiry" placeholder="Write your enquiry.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</HTML>
+
+
